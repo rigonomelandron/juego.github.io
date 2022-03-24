@@ -1,0 +1,169 @@
+ /* Pagina derrota*/
+ 
+ .derrota {
+				height: 100vh;
+        width: 100vw;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #26de81;
+			}
+			
+.derrota h1 {
+				text-align: center;
+				color: white;
+				font-family: arial;
+				font-size: 90px;
+				line-height: 90px;
+				letter-spacing: 15px;
+				text-shadow: 0 1px 0 #efefef,
+							 0 2px 0 #efefef,
+							 0 3px 0 #efefef,
+							 0 4px 0 #efefef,
+							 0 30px 5px rgba(0,0,0,.1);
+			
+				animation: float 3s linear infinite;
+				animation-direction: alternate;
+			}
+			
+			@keyframes float {
+				from { transform: rotate(5deg); }
+			
+				to { transform: rotate(-5deg); }
+			}
+      
+      /*---------------------------------*/
+			  /*Pagina vencedor*/
+        
+       .vencedor {
+       	height: 100vh;
+        width:100vw;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-family: 'Lato', sans-serif;
+				background-color: #262626;
+       }
+			.vencedor ul {
+				margin: 0;
+				padding: 0;
+				display: flex;
+			}
+			
+			.vencedor ul li {
+				list-style: none;
+				color: #484848;
+				font-size: 80px;
+				letter-spacing: 15px;
+				animation: lighting 1.4s linear infinite;
+			
+			}
+			
+			@keyframes lighting {
+				0% {
+					color: #484848;
+					text-shadow: none;
+				}
+			
+				90% {
+					color: #484848;
+					text-shadow: none;
+				}
+			
+				100% {
+					color: #fff900;
+					text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+				}
+			}
+			
+			.vencedor ul li:nth-child(1) {
+				animation-delay: 0
+			}
+			
+			ul li:nth-child(2) {
+				animation-delay: 0.1s
+			}
+			
+			.vencedor ul li:nth-child(3) {
+				animation-delay: 0.2s
+			}
+			
+			.vencedor ul li:nth-child(4) {
+				animation-delay: 0.3s
+			}
+			
+			.vencedor ul li:nth-child(5) {
+				animation-delay: 0.4s
+			}
+			
+			.vencedor ul li:nth-child(6) {
+				animation-delay: 0.5s
+			}
+			
+			.vencedor ul li:nth-child(7) {
+				animation-delay: 0.6s
+			}
+			
+			.vencedor ul li:nth-child(8) {
+				animation-delay: 0.7s
+			}
+      
+      /*----------------------------------*/
+      
+      /* página empate*/
+      
+       .empate {
+				height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #4b4b4b;
+			}
+			
+			 .empate ul {
+				margin: 0;
+				padding: 0;
+				display: flex;
+			}
+			
+			 .empate li {
+				list-style: none;
+				color: white;
+				font-size: 100px;
+				font-weight: bold;
+				letter-spacing: 10px;
+				transition: 2s;
+			}
+			
+			 .empate ul:hover li {
+				transform: rotate(45deg) translateY(-200px);
+				opacity: 0;
+				filter: blur(20px);
+			}
+			
+			 .empate ul li:nth-child(1) {
+				transition-delay: 0;
+			}
+			
+			 .empate ul li:nth-child(2) {
+				transition-delay: 0.4s;
+			}
+			
+			 .empate ul li:nth-child(3) {
+				transition-delay: 0.8s;
+			}
+			
+			 .empate ul li:nth-child(4) {
+				transition-delay: 1.2s;
+			}
+			
+			 .empate ul li:nth-child(5) {
+				transition-delay: 1.6s;
+			}
+       .empate ul li:nth-child(6) {
+				transition-delay: 2s;
+			}
+			        
+			        
+        
+        
